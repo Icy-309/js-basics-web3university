@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="myfirstloop"> for-loop - factorial</p>
+    <script>
+     //this page is for learning factorial using for-loop  //
+     //let is used because varaibles usng let can be reused/reassigned //
+     const factorialOf = integer => {
+        let result = 1;
+      
+
+        for (let i = 1 ; i <= integer; i++  ){
+           result *= i;
+           
+        }
+        return result;
+     }
+     paragraphText = document.getElementById("myfirstloop");
+     paragraphText.innerHTML = factorialOf(); 
+       // i used integer because it was looking better and i saw it in the article, i used n and it stll worked //
+        //read the code an understand better //
+        // its factorial (!) dont forget//
+    
+    
+
+
+
+
+
+    
+       
+       
+
+    
+ 
+ 
+ 
+    </script> 
+</body>
+</html>
